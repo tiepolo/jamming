@@ -2,7 +2,18 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      searchResults: {
+        name: ,
+        artist: ,
+        album: 
+      }
+    }
+  }
+
   render() {
     return (
       <div>
