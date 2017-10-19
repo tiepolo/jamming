@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import SearchResults from '../SearchResults/SearchResults';
 import logo from './logo.svg';
 import './App.css';
 
