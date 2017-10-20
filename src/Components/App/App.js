@@ -12,7 +12,7 @@ class App extends React.Component {
       playlistTracks: {
         name: 'Boys of Summer',
         artist: 'Don Henley',
-        album: 'The Best of Don Henly'
+        album: 'The Best of Don Henley'
       }
     }
   }
