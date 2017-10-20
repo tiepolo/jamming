@@ -7,7 +7,22 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchResults: ''
+      searchResults: '',
+      playlistName: 'River Rock Anthems',
+      playlistTracks: {
+        name: 'Boys of Summer',
+        artist: 'Don Henley',
+        album: 'The Best of Don Henly'
+      }
+    }
+  }
+
+  // Adds a track to a playlist
+  addTrack(track) {
+    if() {
+
+    } else {
+
     }
   }
 
@@ -16,10 +31,10 @@ class App extends React.Component {
       <div>
         <h1>Ja<span className="highlight">mmm</span>ing</h1>
         <div className="App">
-          <!-- Add a SearchBar component -->
+          <SearchBar />
           <div className="App-playlist">
-            <SearchResults searchResults="this.state.searchResults" />
-            <!-- Add a Playlist component -->
+            <SearchResults searchResults={this.state.searchResults} />
+            <Playlist playlistName={this.state.playlistName} playlistTracks={this.state.playlistTracks} />
           </div>
         </div>
       </div>
